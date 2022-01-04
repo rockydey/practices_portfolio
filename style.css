@@ -5,6 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 45px;
+}
+h4{
+    color: tomato;
+    font-size: 25px;
+}
 .color-tomato{
     color: tomato;
 }
@@ -40,4 +47,28 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.experience h1{
+    font-size: 45px;
+}
+#left-border{
+    border-left: 8px solid;
+    border-image-source: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 40px gray;
+}
+#right-border{
+    border-left: 8px solid;
+    border-image-source: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 40px gray;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
