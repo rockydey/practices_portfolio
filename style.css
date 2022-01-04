@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.color-tomato{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, tomato, salmon);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.half-width p{
+    width: 90%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
